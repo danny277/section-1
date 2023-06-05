@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic" rel="stylesheet" />
+    <style>
+        *{
+            font-family: Montserrat;
+        }
+
+        .mycard{
+            border: 5px solid black;
+            width: 25%;
+            border-radius: 20px;
+            box-shadow: 2px 3px 5px 3px black;
+            padding: 20px 10px;
+            box-sizing: border-box;
+            background-color: white;
+        }
+        body{
+
+            display: flex;
+            margin: 0;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_qvfOdPeEdHjlycYrVRfHe45vJW8APlqWiA&usqp=CAU);
+            background-size: cover;
+            backdrop-filter: blur(10px);
+        }
+        .myinput{
+
+            display: block;
+            width: 100%;
+            box-sizing: border-box;
+            margin-bottom: 20px;
+            padding: 10px 20px;
+            border-radius: 5px;
+            border: none;
+            border-bottom: 2px solid black;
+            background-color: whitesmoke;
+            background-color: #999;
+        }
+        .mybtn{
+
+            background-color: #04AA6D;
+  color: white;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="mycard">
+
+        <h2><center>Register Yourself</center></h2>
+        <p><center>Please fill in this form to create an account.</center></p>
+
+        <form>
+
+            <label for="">Full Name</label>
+            <input class="myinput" type="text" placeholder="Full Name">
+
+            <label for="">Email</label>
+            <input class="myinput" type="text" placeholder="Enter Email" required>
+
+            <label for="">Mobile No</label>
+            <input class="myinput" type="tell" placeholder="Mobile No">
+
+            <label for="">Password</label>
+            <input class="myinput" type="password" placeholder="Password">
+
+            <p>By creating an account you agree to our <a href="#">Terms & Privacy</a>.</p>
+
+            <button class="mybtn">Registered</button>
+
+        </form>
+    </div>
+    
+</body>
+</html>
